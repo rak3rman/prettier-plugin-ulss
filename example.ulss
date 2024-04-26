@@ -1,0 +1,16 @@
+// Example Style Sheet!
+
+document-settings {
+  page-inset-top:    18mm;  page-inset-inner:  19mm
+  page-inset-bottom: 18mm;  page-inset-outer:  19mm
+  
+  // Print options...
+  two-sided: no
+  page-binding: left
+}
+
+defaults {
+  font-weight: normal
+  font-size: 10pt
+  line-height: 15pt
+}

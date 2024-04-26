@@ -1,0 +1,28 @@
+{
+  "name": "prettier-plugin-ulss",
+  "version": "0.0.0",
+  "description": "A Prettier plugin for Ulysses Styles .ulss configuration files",
+  "main": "src/index.js",
+  "scripts": {
+    "example": "prettier --plugin . example.ulss",
+    "test": "jest"
+  },
+  "keywords": [
+    "prettier",
+    "ulss",
+    "plugin",
+    "ulysses",
+    "styles"
+  ],
+  "author": {
+    "name": "Radison Akerman"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^1.19.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-watch-typeahead": "^0.2.1"
+  }
+}
